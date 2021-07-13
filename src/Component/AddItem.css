@@ -1,0 +1,54 @@
+.lists{
+    display: flex;
+    margin:auto;
+    justify-content: center;
+}
+
+.lists li{
+    list-style: none;
+   margin-left: 5px;
+    text-align: center;
+}
+.showItems{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.eachItem{
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(0, 119, 255);
+    margin-left: 5px;
+}
+
+.input{
+    width: 500px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: rgb(246, 252, 252);
+}
+
+.all{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+}
+
+.body{
+    background-color:rgb(225, 243, 250);
+    height: 700px;
+}
+
+#list{
+    border: 3px solid gray;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+
+}
+
+.list{
+    color: blue;
+}
